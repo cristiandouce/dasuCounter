@@ -57,6 +57,6 @@ $(document).ready(function(){
 	
 	//testing
 	$('#dasuCounter').dasuCounter(9,1500,100);
-	
+	$('#secondone').dasuCounter(3,1000,0);	
 	
 });
