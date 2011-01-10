@@ -1,5 +1,5 @@
 /*counter*/
 .counterboard{height:36px; margin-bottom: 1em; border-top: 1px solid #C1CDD5; border-bottom: 1px solid #C1CDD5; border-right: 1px solid #C1CDD5;padding:0px; position: relative;float:left;margin-left:20px;margin-bottom:1.5em;background:#FFFFFF;}
-.counterunit{width:20px;height:36px;display:block;float:left;border-left: 1px solid #C1CDD5;background: url('bg_counter.png') no-repeat center center;text-align:center;font-size:2em;}
+.counterunit{width:20px;height:36px;display:block;float:left;border-left: 1px solid #C1CDD5;background: url('../images/bg_counter.png') no-repeat center center;text-align:center;font-size:2em;}
 .black-cover{border-top: 1px solid #C1CDD5;left: 0; right: 0; top: 50%; bottom:4px;position:absolute;}
 /*end counter*/
