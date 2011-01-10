@@ -56,7 +56,7 @@ $(document).ready(function(){
 	CounterBoard('myCounter',9,1000/7,production);
 	
 	//testing
-	$('#dasuCounter').dasuCounter(9,1000/7,production);
+	$('#dasuCounter').dasuCounter(9,1500,100);
 	
 	
 });
