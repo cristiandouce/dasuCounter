@@ -2,7 +2,8 @@
 	
 	$.fn.dasuCounter = function dasuCounter(maxlength,timeinterval,startson){
 		if (this.length > 0) {
-
+			this.addClass('counterboard');
+			
 			var number =  Math.floor(startson) + '';
  			var id = this.attr('id');
 			var counters = number.split('');
