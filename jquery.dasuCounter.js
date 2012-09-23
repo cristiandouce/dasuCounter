@@ -86,7 +86,8 @@
 		}
 		this.$el.addClass('counterboard');
 		this.$el.prepend('<div class="black-cover"></div>');
-		if(!$('head style#jquery_dasuCounter_styles').length) $('head').append(styles);		
+		if(!$('head style#jquery_dasuCounter_styles').length) $('style,link[rel="stylesheet"][type="text/css"]').before(styles);
+		if(!$('head style#jquery_dasuCounter_styles').length) $('head').append(styles);
 	};
 
 	/**
